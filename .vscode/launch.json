@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EscapeSequencesComments",
+            "request": "launch",
+            "mainClass": "EscapeSequencesComments",
+            "projectName": "Brandon-Code_4bb30aac"
+        }
+    ]
+}
