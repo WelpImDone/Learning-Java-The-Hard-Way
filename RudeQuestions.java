@@ -15,6 +15,19 @@ public class RudeQuestions {
         System.out.print( "Hi, " + Name + "! How old are you? ");
         Age = Keyboard.nextInt();
 
-        System.out.println( "");
+        System.out.println( "So you're " + Age + ", eh ? That's not very old." );
+        System.out.println( "How much do you weigh, " + Name + "? ");
+        Weight = Keyboard.nextDouble();
+
+        System.out.println( Weight + " ! Better keep that quiet!!" );
+        System.out.println( "Finally, what's your income, " + Name + "? ");
+        Income = Keyboard.nextDouble();
+
+        
+        System.out.print( "Hopefully that is " + Income + " per hour");
+        System.out.println( " and not per year!" );
+        System.out.print( "Well, thanks for answeing my rude questions, ");
+        System.out.println( Name + ".");
+        Keyboard.close();
 }
 }
